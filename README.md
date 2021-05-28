@@ -1,44 +1,26 @@
 # Instalation
 
-Create and activate environment
-    ```
-    #Create
-    virtualenv -p python3 env
-    ```
-    ```
-    #activate
-    source env/bin/activate
-    ```
+- Create environment: ```$ virtualenv -p python3 env```
 
-Migrate and Migration app project:
-    ```
-    #migration
-    python manage.py makemigrations projects
-    ```
+- activate environment: ```$ source env/bin/activate```
 
-    ```    
-    #migrate
-    python manage.py migrate projects
-    ```
+- Migrate and Migration app project: ```$ python manage.py makemigrations projects```
 
-Add post and save it in python shell django:
-    ```
-    #add post
-    p1 = Project(
-    title='My First Project',
-    description='A web development project.',
-    technology='Django',
-    image='img/project1.png'
-    )
-    ```
+- Migrate app: ``` $ python manage.py migrate projects```
 
-    ```
-    #save it
-    p2.save()
-    ```
+- Add post and save it in python shell django:
+
+```python
+    $ p1 = Project(
+        title='My First Project',
+        description='A web development project.',
+        technology='Django',
+        image='img/project1.png'
+        )
+
+    $ p2.save()
+```
 
 Running django project
 
-    ```
-    python manage.py runserver
-    ```
+    $ python manage.py runserver
