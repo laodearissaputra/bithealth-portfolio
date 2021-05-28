@@ -1,3 +1,5 @@
 env/
-mysite/projects/__pycache__/
-mysite/projects/migrations/
+projects/__pycache__/
+mysite/__pycache__/
+projects/__pycache__/
+projects/migrations/
