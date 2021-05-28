@@ -1,6 +1,6 @@
 # Instalation
 
-Create and activate environment
+# Create and activate environment
     ```
     virtualenv -p python3 env
     ```
@@ -9,7 +9,7 @@ Create and activate environment
     source env/bin/activate
     ```
 
-Migrate and Migration app project:
+# Migrate and Migration app project:
     ```
     python manage.py makemigrations projects
     ```
@@ -17,7 +17,7 @@ Migrate and Migration app project:
     python manage.py migrate projects
     ```
 
-Add post and save it in python shell django:
+# Add post and save it in python shell django:
     ``` 
     p1 = Project(
     title='My First Project',
@@ -26,12 +26,12 @@ Add post and save it in python shell django:
     image='img/project1.png'
     )
     ```
+
     ```
     p2.save()
     ```
 
-Running django project
-
+# Running django project
     ```
     python manage.py runserver
     ```
